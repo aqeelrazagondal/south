@@ -1,0 +1,16 @@
+{
+  "name": "south",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aqeel",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^4.16.3",
+    "serve-static": "^1.13.2"
+  }
+}
