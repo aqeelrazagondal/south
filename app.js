@@ -11,7 +11,7 @@ app.get('/', function (res, res){
 });
 
 app.listen(3000, function() {
-    console.log('Server is running on Port 3000');
+    console.log('App IS RUNNING ON PORT 3000');
 });
 
 // var connect = require('connect');
