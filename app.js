@@ -7,7 +7,7 @@ var app = express();
 app.use(serveStatic(__dirname));
 app.use(serveStatic(path.join(__dirname, 'public')));
 app.get('/', function (res, res){
-    res.send('index.html');
+    res.render('index.html');
 });
 
 app.listen(3000, function() {
