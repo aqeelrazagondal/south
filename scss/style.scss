@@ -2146,6 +2146,16 @@ img {
 }
 
 /* Cool Facts CSS */
+.home-agile-left img {
+  width: 100%;
+  padding: 0;
+  opacity: 0.7;
+
+}
+.home-agile-left{
+  padding: 0;
+  position: relative;
+}
 
 .single-cool-fact-area {
     h2 {
@@ -2158,4 +2168,68 @@ img {
         color: $text-color;
     }
 }
+.property-grids {
+  background: #000;
+}
 
+figure.effect-moses {
+  background: -webkit-linear-gradient(-45deg, #000 0%,#000 100%);
+  background: linear-gradient(-45deg, #000 0%,#000 100%);
+}
+
+figure.effect-moses img {
+  opacity: 0.85;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+figure.effect-moses h4,
+figure.effect-moses p {
+  padding: 20px;
+  width: 50%;
+  height: 50%;
+  border: 6px solid #fff;
+}
+
+figure.effect-moses h4 {
+  padding: 60px 20px 20px 20px;
+  width: 50%;
+  color: #fff;
+  font-size: 50px;
+  height: 50%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(10px,10px,0);
+  transform: translate3d(10px,10px,0);
+  background: rgba(0, 0, 0, 0.55);
+}
+
+figure.effect-moses p {
+  float: right;
+  padding: 61px 20px 20px 20px;
+  font-size: 15px;
+  line-height: 2em;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+  background: rgba(0, 0, 0, 0.55);
+  letter-spacing: 9px;
+}
+
+figure.effect-moses:hover h4 {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+figure.effect-moses:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+figure.effect-moses:hover img {
+  opacity: 0.6;
+}
